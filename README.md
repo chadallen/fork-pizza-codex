@@ -10,10 +10,12 @@ A Codex-native coding workflow built around [Beads](https://github.com/steveyegg
 
 On macOS, install Beads with `brew install beads`.
 
-## Install from this checkout
+## Install
 
 ```bash
-codex plugin marketplace add /Users/chadallen/projects/fork-pizza-codex
+git clone https://github.com/chadallen/fork-pizza-codex.git
+cd fork-pizza-codex
+codex plugin marketplace add "$PWD"
 codex plugin add fork-pizza-codex@personal
 ```
 
