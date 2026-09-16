@@ -1,0 +1,6 @@
+interface:
+  display_name: "Create Tasks"
+  short_description: "Turn requirements into approved Beads tasks."
+  default_prompt: "Use $create-tasks to turn this plan into reviewable Beads tasks."
+policy:
+  allow_implicit_invocation: false

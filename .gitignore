@@ -1,0 +1,8 @@
+.DS_Store
+.beads/review-approved-*
+scratch.md
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key

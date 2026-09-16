@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "fork_pizza_codex",
+  "project_id": "e2a3b775-8351-48ca-a94d-a20002c72497"
+}

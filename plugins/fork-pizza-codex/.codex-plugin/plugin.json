@@ -1,0 +1,27 @@
+{
+  "name": "fork-pizza-codex",
+  "version": "0.1.0",
+  "description": "Codex-native coding workflow with Beads task tracking and parallel implementation and review.",
+  "author": {
+    "name": "Chad Allen",
+    "url": "https://github.com/chadallen"
+  },
+  "homepage": "https://github.com/chadallen/fork-pizza-codex",
+  "repository": "https://github.com/chadallen/fork-pizza-codex",
+  "license": "MIT",
+  "keywords": ["workflow", "agents", "beads", "task-tracking", "code-review"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Fork Pizza Codex",
+    "shortDescription": "Plan and build Beads tasks with Codex agents.",
+    "longDescription": "Orient coding sessions, turn requirements into Beads tasks, run parallel implementer and reviewer agents, and close sessions with verified commits and pushes.",
+    "developerName": "Chad Allen",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Use $start-session to orient me and propose today's work.",
+      "Use $create-tasks to turn this plan into Beads tasks.",
+      "Use $build-tasks to implement the next ready task."
+    ]
+  }
+}
